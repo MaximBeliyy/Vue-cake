@@ -1,0 +1,32 @@
+body{
+    background: #F2C14E;
+    background: -webkit-linear-gradient(left, #F2C14E, #F78154); 
+    background: -o-linear-gradient(left, #F2C14E, #F78154); 
+    background: -moz-linear-gradient(left, #F2C14E, #F78154); 
+    background: linear-gradient(left, #F2C14E, #F78154); 
+}
+
+.wrapper{
+    padding: 15px;
+    min-width: 500px;
+    margin: 0 auto;
+}
+.layer{
+    transition: height 0.5s;
+}
+.layer-biscuit{
+    background: url(../img/biscuit.jpg);
+}
+.layer-beze{
+    background: url(../img/beze.jpg);
+}
+.layer-curd{
+    background: url(../img/curd.png);
+}
+.price{
+    font-size: 26px;
+}
+
+.btn-danger {
+    margin-left: 11px!important;
+}
